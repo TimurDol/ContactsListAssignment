@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tm221260.contactslistassignment.CreateNewContactActivity">
+
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/idEdtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter Email Address"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/idBtnAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save Contact"
+        android:textAllCaps="false" />
+
+</LinearLayout>
